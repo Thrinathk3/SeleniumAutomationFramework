@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67100" started-at="2023-04-26T04:56:16Z" finished-at="2023-04-26T04:57:23Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="67100" started-at="2023-04-26T04:56:16Z" finished-at="2023-04-26T04:57:23Z">
+      <class name="com.tmb.tests.AmazonDemoTest">
+        <test-method status="PASS" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tmb.tests.AmazonDemoTest@73846619]" name="setUp" is-config="true" duration-ms="27951" started-at="2023-04-26T04:56:18Z" finished-at="2023-04-26T04:56:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@512baff6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="amazonTest(java.util.Map)[pri:0, instance:com.tmb.tests.AmazonDemoTest@73846619]" name="amazonTest" duration-ms="20260" started-at="2023-04-26T04:56:46Z" description="To check whether the amazon test is working or not" finished-at="2023-04-26T04:57:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=, password=, browser=chrome, testname=amazonTest, execute=yes, version=79.0.3945.117, menutext=Laptops, username=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tmb.tests.AmazonDemoTest@73846619]" name="tearDown" is-config="true" duration-ms="1531" started-at="2023-04-26T04:57:07Z" finished-at="2023-04-26T04:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tmb.tests.AmazonDemoTest@73846619]" name="setUp" is-config="true" duration-ms="11294" started-at="2023-04-26T04:57:08Z" finished-at="2023-04-26T04:57:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@632ceb35]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="amazonTest(java.util.Map)[pri:0, instance:com.tmb.tests.AmazonDemoTest@73846619]" name="amazonTest" duration-ms="2814" started-at="2023-04-26T04:57:20Z" description="To check whether the amazon test is working or not" finished-at="2023-04-26T04:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=, password=, browser=chrome, testname=amazonTest, execute=yes, version=88.0.4324.96, menutext=Laptops, username=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tmb.tests.AmazonDemoTest@73846619]" name="tearDown" is-config="true" duration-ms="801" started-at="2023-04-26T04:57:22Z" finished-at="2023-04-26T04:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tmb.tests.AmazonDemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
